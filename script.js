@@ -50,16 +50,13 @@ function getQuote() {
 	randomquote = Math.floor(Math.random() * quotes.length);
 	randomcolor = Math.floor(Math.random() * colors.length);
     currentQuote = quotes[randomquote][0];
-    currentAuthor = quotes[randomquote][1];
-	if (inIframe()) {
-		$('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=aLamm&text=' + encodeURIComponent('"' + currentQuote + '" ' + currentAuthor));
-	}
+    // currentAuthor = quotes[randomquote][1];
 
 	$(document).ready(function () {
-	    $('html body').animate({
-	        backgroundColor: colors[randomcolor],
-	        color: colors[randomcolor]
-	    }, 500);
+		$('html body').animate({
+		// backgroundColor: colors[randomcolor],
+		color: colors[randomcolor]
+		}, 500);
 	    $('#newquote, .social-icons .fa-twitter').animate({ backgroundColor: colors[randomcolor] }, 500);
 			$('blockquote footer').animate({ color: colors[randomcolor] }, 500);	
 	    $('blockquote').animate({ borderLeftColor: colors[randomcolor] }, 500);
