@@ -6,7 +6,7 @@ h4,
 h5,
 h6,
 p
- { font-family: 'Raleway', sans-serif;
+ { font-family: Monospace;
 }
 
 h1{font-size:35px;}
@@ -14,7 +14,7 @@ h2{font-size:30px;}
 h3{font-size:25px;}
 p {font-size:16px;}
 
-body {background:#490A3D;}
+body {background:#FFF;}
 .quotemark {
     position: relative;
     top: -12px;
@@ -49,8 +49,8 @@ blockquote footer {
 	background:#fff;
 	max-width:500px;
 	min-height:100px;
-	border:1px solid #222;
-	border-radius:5px;
+/* 	border:2px solid #222; */
+	border-radius:10px;
 	margin:10px;
 }
 
@@ -62,36 +62,6 @@ blockquote footer {
 
 .btn {margin-bottom:10px}
 
-.social-icons {
-	padding:6px 12px;
-	display:inline-block;
-	
-}
-.social-icons .fa {
-	font-size: 1.8em;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	text-align: center;
-	color: #FFF;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.social-icons.icon-rounded .fa{
-	border-radius:5px;
-}
-.social-icons .fa:hover, .social-icons .fa:active {
-	color: #FFF;
-	-webkit-box-shadow: 1px 1px 3px #333;
-	-moz-box-shadow: 1px 1px 3px #333;
-	box-shadow: 1px 1px 3px #333; 
-}
-.social-icons .fa-twitter {
-	background-color:#490A3D; 
-	border-color:none;} 
 
 .btn-primary {
 	width: 100px;
