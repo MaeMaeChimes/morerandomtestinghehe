@@ -17,7 +17,7 @@ p {font-size:16px;}
 body {background:#FFF;}
 .quotemark {
     position: relative;
-    top: -12px;
+    top: -4px;
     padding-right: 10px;
 }
 
@@ -43,7 +43,7 @@ blockquote footer {
 
 .container {
 	max-height:800px;
-	margin: 5px auto auto auto;
+	margin: 2px auto auto auto;
 }
 .quotebox {
 	background:#fff;
